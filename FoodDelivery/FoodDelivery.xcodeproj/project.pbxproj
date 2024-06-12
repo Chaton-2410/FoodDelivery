@@ -26,6 +26,8 @@
 		045DA57F2C1781EA003184E2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 045DA5712C1781EA003184E2 /* Roboto-Thin.ttf */; };
 		045DA5802C1781EA003184E2 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 045DA5722C1781EA003184E2 /* Roboto-ThinItalic.ttf */; };
 		045DA5832C178641003184E2 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DA5822C178641003184E2 /* UIFont+Ext.swift */; };
+		045DA5862C19C21A003184E2 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DA5852C19C21A003184E2 /* UIColor+Ext.swift */; };
+		045DA5882C19C49B003184E2 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DA5872C19C49B003184E2 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		045DA5712C1781EA003184E2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		045DA5722C1781EA003184E2 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		045DA5822C178641003184E2 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
+		045DA5852C19C21A003184E2 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		045DA5872C19C49B003184E2 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			children = (
 				045DA5812C1785DF003184E2 /* Extensions */,
 				045DA5652C1781D1003184E2 /* Fonts */,
+				045DA5872C19C49B003184E2 /* AppColors.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -133,9 +138,18 @@
 		045DA5812C1785DF003184E2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				045DA5822C178641003184E2 /* UIFont+Ext.swift */,
+				045DA5842C19C200003184E2 /* UIKit */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		045DA5842C19C200003184E2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				045DA5822C178641003184E2 /* UIFont+Ext.swift */,
+				045DA5852C19C21A003184E2 /* UIColor+Ext.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +237,8 @@
 			files = (
 				045DA5832C178641003184E2 /* UIFont+Ext.swift in Sources */,
 				044EDA172C176CF100D84E43 /* ViewController.swift in Sources */,
+				045DA5862C19C21A003184E2 /* UIColor+Ext.swift in Sources */,
+				045DA5882C19C49B003184E2 /* AppColors.swift in Sources */,
 				044EDA132C176CF100D84E43 /* AppDelegate.swift in Sources */,
 				044EDA152C176CF100D84E43 /* SceneDelegate.swift in Sources */,
 			);

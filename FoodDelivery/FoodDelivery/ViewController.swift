@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     private let label: UILabel = {
         let view = UILabel()
-        view.textColor = .white
+        view.textColor = AppColors.background
         view.text = "Hello World!"
         view.translatesAutoresizingMaskIntoConstraints = false
         view.font = .Roboto.italic.size(of: 14)
